@@ -1,0 +1,14 @@
+{
+    "version": 3,
+    "mappings": "ACAA,OAAO,CAAC,4EAAI;AAGZ,AAAA,CAAC,CAAA;EACG,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;EACtB,WAAW,EAAE,oBAAoB;CACpC",
+    "sources": [
+        "../../sass/main.scss",
+        "../../sass/_config.scss",
+        "../../sass/_utilities.scss",
+        "../../sass/_index.scss",
+        "../../sass/_contactUs.scss",
+        "../../sass/_about.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
