@@ -17,9 +17,9 @@
         }
         .nav{
             li{
-                padding: 20px;
-                
+                margin-right: 10px;
                 a{
+                    display: block;
                     color: $light-color;
                     font-weight: bolder;
                     font-size: 1.3rem;
