@@ -52,3 +52,36 @@
     }
 
 }
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    i{
+        margin-bottom: 10px;
+    }
+    h3{
+        margin: 10px ;
+    }
+    
+    
+}
+.bg-light{
+    i,h3{
+        color: $primary-color;
+    }
+    
+}
+.lead{
+
+        color: $secondary-color;
+        font-weight: 600;
+        font-size: 1.3rem;
+        letter-spacing: 2px;
+        padding: 20px 0;
+    
+}
