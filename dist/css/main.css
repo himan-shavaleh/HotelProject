@@ -24,6 +24,10 @@ h1, h2, h3 {
   margin: auto;
 }
 
+.current {
+  background: #57bc90;
+}
+
 .bg-secondary {
   background: #77c9d4;
   color: #fff;
@@ -31,6 +35,11 @@ h1, h2, h3 {
 
 .bg-dark {
   background: #333;
+  color: #fff;
+}
+
+.bg-succes {
+  background: #57bc90;
   color: #fff;
 }
 
@@ -46,6 +55,14 @@ h1, h2, h3 {
   background: #fff;
   color: #015249;
   opacity: 0.7;
+}
+
+.btn-dark {
+  background: #015249;
+  color: #fff;
+  border: 1px solid #a5a5af;
+  margin: 10px;
+  border-radius: 5px;
 }
 
 .btn-outline-dark {
@@ -221,6 +238,49 @@ h1, h2, h3 {
   color: #fff;
   letter-spacing: 2px;
   font-weight: 600;
+}
+
+#contact-form {
+  padding: 20px;
+}
+
+#contact-form h1 {
+  color: #015249;
+}
+
+#contact-form .contact-form label {
+  display: block;
+  padding: 10px;
+}
+
+#contact-form .contact-form input, #contact-form .contact-form textarea {
+  display: block;
+  margin: 0 10px;
+  width: 80%;
+  border: 1px solid #a5a5af;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 1.2rem;
+  color: #57bc90;
+}
+
+#contact-form .contact-form input:focus, #contact-form .contact-form textarea:focus {
+  outline: none;
+  border-color: #77c9d4;
+}
+
+#waystoContact {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#waystoContact .card {
+  -webkit-box-flex: 33%;
+      -ms-flex: 33%;
+          flex: 33%;
+  height: 200px;
 }
 
 #about {
